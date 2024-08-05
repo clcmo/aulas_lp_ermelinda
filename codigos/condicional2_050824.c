@@ -14,10 +14,12 @@ int main()
     int n;
     printf ("Informe um número: ");
     scanf ("%d", &n);
-    if (n > 10) {
-        printf ("%d eh maior que 10", n);
+    
+    /* Pensando no par ou impar */
+    if (n % 2 == 0) {
+        printf ("%d eh par", n);
     } else {
-        printf ("%d eh menor que 10", n);
+        printf ("%d eh impar", n);
     }
 
     return 0;
