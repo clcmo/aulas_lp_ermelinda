@@ -52,6 +52,10 @@ int main()
     
     if(x > y && x < z){
         printf("%d eh maior que %d, porem eh menor que %d", x, y, z);
+    } else if (x > y && x > z) {
+        printf("%d eh maior que %d e eh maior que %d", x, y, z);
+    } else if (x < y && x > z) {
+        printf("%d eh menor que %d, porem eh maior que %d", x, y, z);
     }
 
     return 0;
